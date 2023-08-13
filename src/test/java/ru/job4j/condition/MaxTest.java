@@ -22,7 +22,7 @@ public class MaxTest {
         int expected = 2;
         assertThat(result).isEqualTo(expected);
     }
-    
+
     @Test
     void whenMax3To2Then2() {
         int left = 2;
