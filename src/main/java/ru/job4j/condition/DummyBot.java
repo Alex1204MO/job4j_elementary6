@@ -2,7 +2,7 @@ package ru.job4j.condition;
 
 public class DummyBot {
     public static String answer(String question) {
-        String rsl ;
+        String rsl;
         if ("Hi, Bot.".equals(question)) {
             rsl = "Hi, SmartAss.";
         } else if ("Bye.".equals(question)) {
@@ -12,8 +12,7 @@ public class DummyBot {
         }
         return rsl;
     }
-
-
+    
     public static void main(String[] args) {
         String rsl = DummyBot.answer("Hi, Bot.");
         System.out.println(rsl);
